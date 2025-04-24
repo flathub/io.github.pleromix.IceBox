@@ -38,11 +38,12 @@ modules:
     sources:
       - type: git
         url: https://github.com/pleromix/IceBox
-        commit: 1d1d161691d38d5066ccf2e25755b7b15f5e8bd2
+        commit: 0a700ff4c3ceff3038cfc3b7037bedff8070cf32
+        tag: v1.0.1
         dest: 'source'
       - type: file
-        url: https://github.com/pleromix/IceBox/releases/download/v1.0.0/icebox.jar
-        sha256: ba4280e651cd1d4bdb714b06f4dee83d22504832b66f2dc52eff19e4a063ab0e
+        url: https://github.com/pleromix/IceBox/releases/download/v1.0.1/icebox.jar
+        sha256: 3f01c78af4ddd60f04f09ea935c7e76331cfb64c236e33235a241b957ae08882
       - type: archive
         url: https://download2.gluonhq.com/openjfx/20.0.2/openjfx-20.0.2_linux-x64_bin-sdk.zip
         sha256: 203718dd386dbd905b5f3412cd9644c531b261531b0ef19a4d1bc199da811b62
