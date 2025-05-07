@@ -8,7 +8,8 @@ sdk-extensions:
 finish-args:
   - --share=ipc
   - --device=dri
-  - --socket=x11
+  - --socket=fallback-x11
+  - --socket=wayland
   - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
   - --filesystem=xdg-pictures
   - --filesystem=xdg-documents
@@ -38,12 +39,12 @@ modules:
     sources:
       - type: git
         url: https://github.com/pleromix/IceBox
-        commit: 0a700ff4c3ceff3038cfc3b7037bedff8070cf32
-        tag: v1.0.1
+        commit: d55ee44402a1a895c3f297c8fdfff5f6913ee597
+        tag: v1.1.2
         dest: 'source'
       - type: file
-        url: https://github.com/pleromix/IceBox/releases/download/v1.0.1/icebox.jar
-        sha256: 3f01c78af4ddd60f04f09ea935c7e76331cfb64c236e33235a241b957ae08882
+        url: https://github.com/pleromix/IceBox/releases/download/v1.1.2/icebox.jar
+        sha256: 328d7b76fdcccc4699d7512ef27d0435e0e3ed1351de076fcb090f2bf9736705
       - type: archive
         url: https://download2.gluonhq.com/openjfx/20.0.2/openjfx-20.0.2_linux-x64_bin-sdk.zip
         sha256: 203718dd386dbd905b5f3412cd9644c531b261531b0ef19a4d1bc199da811b62
