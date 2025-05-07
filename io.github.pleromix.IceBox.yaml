@@ -39,7 +39,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/pleromix/IceBox
-        commit: d55ee44402a1a895c3f297c8fdfff5f6913ee597
+        commit: bb7f9b32905cdc2311e7cf9e748f1dc9c7a5e1a7
         tag: v1.1.2
         dest: 'source'
       - type: file
