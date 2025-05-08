@@ -8,8 +8,7 @@ sdk-extensions:
 finish-args:
   - --share=ipc
   - --device=dri
-  - --socket=fallback-x11
-  - --socket=wayland
+  - --socket=x11
   - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
   - --filesystem=xdg-pictures
   - --filesystem=xdg-documents
